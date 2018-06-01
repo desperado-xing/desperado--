@@ -1,0 +1,4 @@
+linux 设置主副屏幕
+1：xrandr                  查看当前系统下所有屏幕
+2：xrandr --output VGA-2 --auto --primary           设置某个屏幕为主屏幕
+3：xrandr --output DVI-D-1 --right-of VGA-2 --auto     设置副屏在主屏右边
